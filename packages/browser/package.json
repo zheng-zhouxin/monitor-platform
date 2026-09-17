@@ -1,0 +1,23 @@
+{
+    "name": "@miaoma-monitor-demo/browser",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "tsup"
+    },
+    "keywords": [],
+    "author": "Heyi",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@miaoma-monitor-demo/core": "workspace:*",
+        "@miaoma-monitor-demo/browser-utils": "workspace:*"
+    },
+    "devDependencies": {
+        "tsup": "8.5.1"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "@miaoma-monitor-demo/core",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "tsup"
+    },
+    "keywords": [],
+    "author": "Heyi",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "tsup": "8.5.1"
+    }
+}
